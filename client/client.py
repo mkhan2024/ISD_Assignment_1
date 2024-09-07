@@ -65,7 +65,7 @@ class Client:
     def first_name(self) -> str:
         """
         Returns:
-            int: The first_name.
+            str: The first_name.
         """
         return self.__first_name
     
@@ -73,7 +73,7 @@ class Client:
     def last_name(self) -> str:
         """
         Returns:
-            int: The last_name.
+            str: The last_name.
         """
         return self.__last_name
     
@@ -81,7 +81,7 @@ class Client:
     def email_address(self) -> str:
         """
         Returns:
-            int: The email_address.
+            str: The email_address.
         """
         return self.__email_address
     

@@ -60,7 +60,7 @@ class TestClient(unittest.TestCase):
         client = Client(1999, "Sion", "Kim", "skim14@rrc.ca")
         self.assertEqual("skim14@rrc.ca", client._Client__email_address)
     
-    def test_retunrs_str_(self):
+    def test_retunrs_str_client(self):
         """ Test for return expected str format """
         client = Client(1999, "Sion", "Kim", "skim14@rrc.ca")
-        self.assertEqual(str(client), "Kim, Sion [1999] - skim14@rrc.ca")
+        self.assertEqual("Kim, Sion [1999] - skim14@rrc.ca", str(client))
