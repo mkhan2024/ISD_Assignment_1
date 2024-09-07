@@ -42,6 +42,7 @@ class BankAccount:
             self.__balance = float(balance)
         else:
             self.__balance = 0
+            print("Balance: $0")
         
     @property
     def account_number(self) -> int:
