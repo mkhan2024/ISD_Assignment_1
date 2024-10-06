@@ -1,7 +1,7 @@
 """
 Description: A class to manage Client objects.
-Author: Sion Kim
-Date: 2024.09.07
+Author: Apurba Khan
+Date: 2024.09.23
 """
 
 from email_validator import validate_email, EmailNotValidError

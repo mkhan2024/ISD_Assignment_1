@@ -2,8 +2,8 @@
 Description: A client program written to verify correctness of 
 the BankAccount and Transaction classes.
 Author: ACE Faculty
-Edited by: Sion Kim
-Date: 2024.09.07
+Edited by: Apurba Khan
+Date: 2024.09.23
 """
 from bank_account.bank_account import BankAccount
 from client.client import Client
@@ -22,22 +22,22 @@ def main():
     print("-" * 100)
 
     try:
-        client = Client(None, "Sion", "Kim", "skim14@rrc.ca")
+        client = Client(None, "Apurba", "Khan", "mkhan14@rrc.ca")
     except ValueError as e:
         print(e)
     
     try:
-        client = Client(1999, " ", "Kim", "skim14@rrc.ca")
+        client = Client(1999, " ", "Khan", "mkhan14@rrc.ca")
     except ValueError as e:
         print(e)
 
     try:
-        client = Client(1999, "Sion", " ", "skim14@rrc.ca")
+        client = Client(1999, "Apurba", " ", "mkhan14@rrc.ca")
     except ValueError as e:
         print(e)
 
     try:
-        client = Client(1999, "Sion", "Kim", "skim14@rrc.ca")
+        client = Client(1999, "Apurba", "Khan", "mkhan14@rrc.ca")
     except ValueError as e:
         print(e)
 
